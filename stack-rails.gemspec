@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'core/version'
+require 'stack/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "stack-rails"
-  spec.version       = Core::VERSION
+  spec.version       = Stack::VERSION
   spec.authors       = ["sashastip"]
   spec.email         = ["saschastipanenko@gmail.com"]
 
