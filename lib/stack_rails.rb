@@ -1,5 +1,5 @@
-require_relative "core/version"
-require_relative "core/library"
+require "core/version"
+require "core/library"
 
 class ShowStack
 
@@ -11,3 +11,7 @@ class ShowStack
     @init = init
   end
 end
+
+ss = ShowStack.new("init")
+p ss
+p ss.first_method
