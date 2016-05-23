@@ -1,9 +1,6 @@
-require "core/version"
-require "core/library"
+require 'stack/version'
 
 class ShowStack
-
-  include Core::Library
 
   attr_accessor :name, :nickname
 
@@ -11,7 +8,3 @@ class ShowStack
     @init = init
   end
 end
-
-ss = ShowStack.new("init")
-p ss
-p ss.first_method
