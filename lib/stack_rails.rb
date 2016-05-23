@@ -1,5 +1,5 @@
 class ShowStack
-  attr_accessible :name, :nickname
+  attr_accessor :name, :nickname
 
   def initialize(init)
     @init = init
