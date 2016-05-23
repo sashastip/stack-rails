@@ -1,5 +1,5 @@
-require_relative "core/version"
-require_relative "core/library"
+require "core/version"
+require "core/library"
 
 class ShowStack
   include Library
