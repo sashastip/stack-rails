@@ -1,5 +1,5 @@
 module Stack_Rails
-  class Stack
+  class ShowStack
     def initialize(init)
       @init = init
     end
