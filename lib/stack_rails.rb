@@ -3,7 +3,7 @@ require_relative "core/library"
 
 class ShowStack
 
-  include Library
+  include Core::Library
 
   attr_accessor :name, :nickname
 
