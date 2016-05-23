@@ -1,5 +1,10 @@
+require_relative "core/version"
+require_relative "core/library"
+
 class ShowStack
-  attr_accessor :name, :nickname
+  include Library
+  
+  attr_accessor:name, :nickname
 
   def initialize(init)
     @init = init
