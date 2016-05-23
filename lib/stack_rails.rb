@@ -1,7 +1,8 @@
-require "core/version"
-require "core/library"
+require_relative "core/version"
+require_relative "core/library"
 
 class ShowStack
+
   include Library
 
   attr_accessor :name, :nickname
