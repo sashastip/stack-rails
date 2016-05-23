@@ -3,8 +3,8 @@ require_relative "core/library"
 
 class ShowStack
   include Library
-  
-  attr_accessor:name, :nickname
+
+  attr_accessor :name, :nickname
 
   def initialize(init)
     @init = init
